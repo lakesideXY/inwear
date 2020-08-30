@@ -1,56 +1,58 @@
-/*{
-    max-width: 1750px;
-}*/
 *{
+    text-decoration: none;
 }
-.nav{
+.header>h1{
+    margin-bottom: 0;
+    font-size: 40px;
+}
+.header>ul{
     float: right;
+    margin-top: 0;
 }
-.nav>ul>li{
+.header>ul>li{
     display: inline;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px;
-}
-.nav>ul>li{
-    padding: 5 20px;
-    margin: 5 0px;
     font-size: larger;
 }
 .img{
     background-image: url(img/blog_2.jpg);
     background-size: cover;
     background-position:center;
-    min-height: 500px;
-    margin-top: 50px;
+    min-height: 850px;
+    min-width: 1500px;
+    margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
 }
 .img>h2{
     color: white;
     text-align: center;
-    padding-top: 150px;
-    /*padding: 200px;*/
-    font-size: 40px;
+    padding-top: 430px;
+    font-size: 60px;
     align-self: center;
     align-content: center;
     text-transform: capitalize;
 }
 .end-header, .four>h2{
     background-color: grey;
-    border-radius: 7px;
+    border-radius: 30px;
     text-align: center;
     align-self: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 650px;
-    margin-right: 650px;
-    padding: 10px;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+.end-header{
+    margin-top: 50px;
+    font-size: 35px;
 }
 .two{
     background-image: url(img/slider-1.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: left;
     min-height: 700px;
-    min-width: 700p;
+    min-width: 700px;
     opacity: 0.7;
 }
 .two>h1{
@@ -69,8 +71,9 @@
     align-self: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 500px;
-    margin-left: 650px;
-    margin-right: 650px;
+    margin-left: 700px;
+    margin-right: 700px;
+    border-radius: 30px;
     padding: 10px;
 }
 .four>h1{
@@ -78,7 +81,7 @@
     font-size: 50px;
 }
 .img1{
-    margin-top: 60px;
+    margin-top: 80px;
     margin-left: 80px;
 }
 .img2{
