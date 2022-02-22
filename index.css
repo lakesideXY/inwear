@@ -1,0 +1,82 @@
+/*body{
+    background-color: rgb( 222 125 176);
+}*/
+.top>h1{
+    color: indigo;
+    font-size: 50px;
+    margin: 0px;
+}
+.top>ul{
+    float: right;
+}
+.top>ul>li{
+    display: inline;
+    font-size: 25px;
+    padding: 5px;
+}
+.logo{
+    background-image: url(img/blog_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 520px;
+}
+.logo>h2{
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px rgb(212, 114, 1);
+    font-size: 50px;
+    padding-top: 250px;
+}
+.item1>h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    text-shadow: 2px 3px black;
+    padding-top: 30px;
+    margin: 0px;
+}
+.item1>img{
+    width: 500px;
+    height: 500px;
+    padding-right: 50px;
+}
+.item1>h2{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+.item2>h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    text-shadow: 2px 3px red;
+    margin: 0px;
+    padding: 0px;
+}
+.item2>img{
+    width: 500px;
+    height: 500px;
+    padding-right: 50px;
+}
+.item2>h2{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.end>ul>li{
+    float: left;
+    width: 520px;
+    font-size: 25px;
+    padding: 8px;
+}
+.footer{
+    float: left;
+    width: 390px;
+    padding: 10px;
+    font-size: 24px;
+}
