@@ -1,15 +1,15 @@
 /*body{
     background-color: rgb( 222 125 176);
 }*/
-.top>h1{
+.top h1{
     color: indigo;
     font-size: 50px;
     margin: 0px;
 }
-.top>ul{
+.top ul{
     float: right;
 }
-.top>ul>li{
+.top ul li{
     display: inline;
     font-size: 25px;
     padding: 5px;
@@ -21,14 +21,14 @@
     background-position:center;
     height: 520px;
 }
-.logo>h2{
+.logo h2{
     color: white;
     text-align: center;
     text-shadow: 4px 4px rgb(212, 114, 1);
     font-size: 50px;
     padding-top: 250px;
 }
-.item1>h1{
+.item1 h1{
     text-align: center;
     color: blue;
     font-size: 50px;
@@ -36,19 +36,19 @@
     padding-top: 30px;
     margin: 0px;
 }
-.item1>img{
+.item1 img{
     width: 500px;
     height: 500px;
     padding-right: 50px;
 }
-.item1>h2{
+.item1 h2{
     text-align: center;
     color: red;
     font-size: 40px;
     margin: 0px;
     padding: 0px;
 }
-.item2>h1{
+.item2 h1{
     text-align: center;
     color: blue;
     font-size: 50px;
@@ -56,19 +56,19 @@
     margin: 0px;
     padding: 0px;
 }
-.item2>img{
+.item2 img{
     width: 500px;
     height: 500px;
     padding-right: 50px;
 }
-.item2>h2{
+.item2 h2{
     text-align: center;
     color: red;
     font-size: 40px;
     margin-top: 0px;
     padding-top: 0px;
 }
-.end>ul>li{
+.end ul li{
     float: left;
     width: 520px;
     font-size: 25px;
@@ -78,5 +78,27 @@
     float: left;
     width: 390px;
     padding: 10px;
-    font-size: 24px;
+    font-size: 20px;
+}
+.info input[type="text"]{
+    width: 250px;
+    height: 25px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    padding: 0px 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.info input[type="submit"]{
+    width: 250px;
+    height: 25px;
+    background: #C4C4C4;
+    color: #3956A2;
+    padding: 0px 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
 }
